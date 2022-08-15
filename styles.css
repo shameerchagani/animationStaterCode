@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Alumni+Sans+Collegiate+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Akshar;
+}
+
+/* ***Global Styles */
+body{
+    background: #e2e2e2;
+  }
+  header h1{
+    padding: 10px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    background: #D46601;
+    color: #f3d5c5;
+    box-shadow: 5px 5px 10px rgba(237, 113, 0, 0.3);
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  section.container{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3), 
+                -10px -10px 15px rgba(0,0,0,0.3);
+    overflow: hidden;
+  }
+  section.text-wrapper{
+    padding:2em;
+    text-align: center;
+  }
+  .text{
+    font-size: 2.5em;
+  }
+  section p{
+    margin-bottom: 20px;
+  }
+
+  
